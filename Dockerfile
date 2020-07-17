@@ -2,7 +2,7 @@ FROM fedora:32
 
 ENV http_proxy=http://proxy1.si.c-s.fr:3128
 ENV https_proxy=http://proxy1.si.c-s.fr:3128
-ENV no_proxy=loclahost,127.0.0.1,si.c-s.fr
+ENV no_proxy=localhost,127.0.0.1,si.c-s.fr
 #ENV no_proxy = 0.0.0.0/0
 
 
