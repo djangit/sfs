@@ -15,7 +15,7 @@ WORKDIR /opt/Secure_File_Server/
 
 RUN npm install && \
     #mkdir files/ && \
-    openssl req -x509 -nodes -newkey rsa:2048 -keyout key.pem -out cert.pem
+    openssl req -x509 -nodes -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/C=FR/ST=IDF/L=Plessis/O=CSGroup/OU=CIaaS/CN=example.com"
 
 #RUN dnf install procps, net-tools
 
