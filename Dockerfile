@@ -5,7 +5,7 @@ FROM fedora:32
 ENV no_proxy = 0.0.0.0/0
 
 
-RUN dnf update -y
+#RUN dnf update -y
 RUN dnf -y install npm nodejs git openssl 
 
 RUN git clone https://github.com/crivaledaz/Secure_File_Server.git /opt/Secure_File_Server/
