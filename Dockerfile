@@ -1,8 +1,8 @@
 FROM fedora:32
 
-#ENV http_proxy=http://proxy1.si.c-s.fr:3128
-#ENV https_proxy=http://proxy1.si.c-s.fr:3128
-ENV no_proxy = 0.0.0.0/0
+ENV http_proxy=http://proxy1.si.c-s.fr:3128
+ENV https_proxy=http://proxy1.si.c-s.fr:3128
+#ENV no_proxy = 0.0.0.0/0
 
 
 #RUN dnf update -y
