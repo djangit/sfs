@@ -2,8 +2,8 @@
 # run successfully with the following command : podman run -d -p 8080:80 -p 8443:443 sfs1
 FROM fedora:32
 
-ENV http_proxy=http://proxy1.si.c-s.fr:3128
-ENV https_proxy=http://proxy1.si.c-s.fr:3128
+ENV http_proxy=http:\\proxy1.si.c-s.fr:3128
+ENV https_proxy=http:\\proxy1.si.c-s.fr:3128
 
 
 #RUN dnf update -y
