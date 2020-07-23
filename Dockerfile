@@ -41,7 +41,7 @@ RUN sed -i "s/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/6LdpNfYUAAAAAFN2ZkJYAJSiCj
 
 
 
-EXPOSE 443 80
+EXPOSE 8443 8080 80 443
 
 # ENTRYPOINT ["/opt/Secure_File_Server/entrypoint.sh"]
 CMD ["node", "/opt/Secure_File_Server/index.js"]
