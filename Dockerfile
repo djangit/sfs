@@ -17,7 +17,7 @@ WORKDIR /opt/Secure_File_Server/
 RUN npm install && \
     #mkdir files/ && \
     #openssl req -x509 -nodes -newkey rsa:2048 -keyout key.pem -out cert.pem
-    openssl req -x509 -nodes -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/C=FR/ST=IDF/L=Plessis/O=CSGroup/OU=CIaaS/CN=localhost"
+    openssl req -x509 -nodes -newkey rsa:2048 -keyout /opt/Secure_File_Server/key.pem -out /opt/Secure_File_Server/cert.pem -subj "/C=FR/ST=IDF/L=Plessis/O=CSGroup/OU=CIaaS/CN=localhost"
 
 
 RUN mkdir files
