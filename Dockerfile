@@ -36,8 +36,8 @@ VOLUME /opt/Secure_File_Server/files
 RUN sed -i "s/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/6LdpNfYUAAAAAFN2ZkJYAJSiCjswOEfiFy8-ZGag/g" config.json  && \
     sed -i "s/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/6LdpNfYUAAAAAPCKCqorfvN3RtijAdtAtpoQxBKG/g" config.json && \
     sed -i "s/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/6LdpNfYUAAAAAFN2ZkJYAJSiCjswOEfiFy8-ZGag/g" upload.html && \
-    sed -i '/"portHTTP"/d' config.json && \
-    sed -i "s/443/8443/g" config.json
+    sed -i '/"portHTTP"/d' config.json
+#    sed -i "s/443/8443/g" config.json
 
 
 
